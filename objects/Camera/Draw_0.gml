@@ -19,6 +19,6 @@ camera_apply(camera);
 vertex_submit(vbuffer, pr_trianglelist, sprite_get_texture(spr_grass, 0));
 
 // The player
-matrix_set(matrix_world, matrix_build(Player.x, Player.y, Player.z, 0, 0, 0, 1, 1, 1));
+/*matrix_set(matrix_world, matrix_build(Player.x, Player.y, Player.z, 0, 0, 0, 1, 1, 1));
 vertex_submit(vb_player, pr_trianglelist, -1);
-matrix_set(matrix_world, matrix_build_identity());
+matrix_set(matrix_world, matrix_build_identity());*/
