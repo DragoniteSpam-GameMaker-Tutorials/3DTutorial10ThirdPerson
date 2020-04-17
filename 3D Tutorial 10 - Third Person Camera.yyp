@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0786622e-0d38-429b-b555-ea1402a7d43a",
+            "Value": {
+                "id": "72e441fa-f0ce-491a-9b16-4d33d72db0a1",
+                "resourcePath": "scripts\\load_model\\load_model.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "137716a6-2bb1-4af5-9811-9f244f4c3578",
             "Value": {
                 "id": "7f5cfde2-b87e-41aa-a454-1cba6d2789b0",
@@ -140,6 +148,14 @@
                 "id": "199043c1-b055-4ea8-ae74-a910d4656167",
                 "resourcePath": "objects\\Player\\Player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "94fdb49f-7812-497d-8e63-8b7cbe632ae8",
+            "Value": {
+                "id": "6906453d-91e9-439f-8eb8-ac59b61abc75",
+                "resourcePath": "datafiles_yy\\player.d3d.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

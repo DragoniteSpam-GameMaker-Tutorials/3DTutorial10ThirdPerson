@@ -29,13 +29,13 @@ for (var i = 0; i < room_width; i += s) {
         }
         
         #region add data to the vertex buffer
-        vertex_add_point(vbuffer, i, j, 100,                0, 0, 1,        0, 0,       color, 1);
-        vertex_add_point(vbuffer, i + s, j, 100,            0, 0, 1,        1, 0,       color, 1);
-        vertex_add_point(vbuffer, i + s, j + s, 100,        0, 0, 1,        1, 1,       color, 1);
+        vertex_add_point(vbuffer, i, j, 0,                  0, 0, 1,        0, 0,       color, 1);
+        vertex_add_point(vbuffer, i + s, j, 0,              0, 0, 1,        1, 0,       color, 1);
+        vertex_add_point(vbuffer, i + s, j + s, 0,          0, 0, 1,        1, 1,       color, 1);
 
-        vertex_add_point(vbuffer, i + s, j + s, 100,        0, 0, 1,        1, 1,       color, 1);
-        vertex_add_point(vbuffer, i, j + s, 100,            0, 0, 1,        0, 1,       color, 1);
-        vertex_add_point(vbuffer, i, j, 100,                0, 0, 1,        0, 0,       color, 1);
+        vertex_add_point(vbuffer, i + s, j + s, 0,          0, 0, 1,        1, 1,       color, 1);
+        vertex_add_point(vbuffer, i, j + s, 0,              0, 0, 1,        0, 1,       color, 1);
+        vertex_add_point(vbuffer, i, j, 0,                  0, 0, 1,        0, 0,       color, 1);
         #endregion
     }
 }
@@ -44,3 +44,5 @@ vertex_end(vbuffer);
 #endregion
 
 instance_create_depth(0, 0, 0, Player);
+
+vb_player = load_model("player.d3d");
