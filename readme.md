@@ -4,4 +4,4 @@ Not all 3D games are best played in first-person. Depending on what you're makin
 
 Video tutorial:
 
-**[Pending]**
+[![YouTube](https://i.ytimg.com/vi/JdsxJqC4S4o/hqdefault.jpg)](https://youtu.be/JdsxJqC4S4o)
